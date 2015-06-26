@@ -1,8 +1,7 @@
 
-var FizzBuzz = require('../fizzbuzz.js');
+var fizzBuzz = require('../fizzbuzz2.js');
 
 describe("forNumber", function (n) {
-  var fizzBuzz = new FizzBuzz();
 
   it("returns the number when provided 1 as input", function () {
     expect(fizzBuzz.forNumber(1)).toEqual('1');
@@ -41,7 +40,6 @@ describe("forNumber", function (n) {
 
 
 describe("printTo", function (n) {
-  var fizzBuzz = new FizzBuzz();
 
   it("returns a string with values for each number up to n", function () {
     expect(fizzBuzz.printTo(10)).toEqual('1, 2, fizz, 4, buzz, fizz, 7, 8, fizz, buzz');

@@ -21,6 +21,7 @@ var fizzBuzz = {
     }
   },
 
+  //
   // printTo: function (n) {
   //   var arr = [];
   //   for (var i = 1; i <= n; i++) {
@@ -36,11 +37,11 @@ var fizzBuzz = {
   //   }
   //     return arr.join(', ');
   // }
-  printTo: function (n) {
-    for (var i = 0;i <= 10; i++) {
-      console.log(forNumber(i));
-    }
-  }
+  // printTo: function (n) {
+  //   for (var i = 0;i <= 10; i++) {
+  //     console.log(forNumber(i));
+  //   }
+  // }
 }
 
 
