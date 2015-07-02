@@ -20,7 +20,7 @@ describe("forNumber", function (n) {
   });
 
   it("returns the word 'fizz' when provided a multiple of 3", function () {
-    expect(fizzBuzz.forNumber(9)).toEqual('fizz');
+    expect(fizzBuzz.forNumber(6)).toEqual('fizz');
   });
 
   it("returns the word 'buzz' when provided a multiple of 5", function () {
@@ -32,17 +32,17 @@ describe("forNumber", function (n) {
   });
 
   it("for all other numbers it returns the number as a string", function () {
-    expect(fizzBuzz.forNumber(4)).toEqual('4');
+    expect(fizzBuzz.forNumber(8)).toEqual('8');
   });
 
 });
 
 
 
-describe("printTo", function (n) {
-
-  it("returns a string with values for each number up to n", function () {
-    expect(fizzBuzz.printTo(10)).toEqual('1, 2, fizz, 4, buzz, fizz, 7, 8, fizz, buzz');
-  });
-
-});
+// describe("printTo", function (n) {
+//
+//   xit("returns a string with values for each number up to n", function () {
+//     expect(fizzBuzz.printTo(10)).toEqual('1, 2, fizz, 4, buzz, fizz, 7, 8, fizz, buzz');
+//   });
+//
+// });
